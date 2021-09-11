@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Feedback form</title>
+
+
+
+</head>
+
+<body>
+
+  <h1>Send us your feedback</h1>
+
+  <div>
+
+    <p>Your opinion is important to us, please leave a fuw words below.</p>
+    <div>
+      <label>E-mail</label>
+      <br>
+      <input type="email">
+    </div>
+    <div>
+      <label>Feedback</label>
+      <br>
+      <textarea rows="10"></textarea>
+    </div>
+    <a href="https://media.giphy.com/media/3o6ozuHcxTtVWJJn32/giphy.gif?cid=ecf05e47yssugcnavs5hok7exkhjqgfa1wg26rdmfqkhs43l&rid=giphy.gif&ct=g"
+      target="_blank">Privacy Policy</a>
+    <br>
+    <button>Send</button>
+    <br>
+    <img src="https://media.giphy.com/media/3o6ozuHcxTtVWJJn32/giphy.gif?cid=ecf05e47yssugcnavs5hok7exkhjqgfa1wg26rdmfqkhs43l&rid=giphy.gif&ct=g">
+
+  </div>
+
+</body>
+
+</html>
