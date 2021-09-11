@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gyümölcstermelés</title>
+	<meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>Gyümölcstermelés leírása</h1>
+    <h2>Alma</h2>
+    <img src="http://www.gazdabolt.hu/modules/ybc_blog/views/img/post//2013/02/iStock_000014707471XSmall-300x300.jpg" alt="Kép egy almafa ágáról" style="width:200px;">
+    <div>
+      <h3>Almatermesztés menete és fajták</h3>
+      <h4>Az alma termesztésének lépései:</h4>
+      <ol>
+        <li>Elülteted a fát</li>
+        <li>Metszed a fát</li>
+        <li>Permeteled a fát</li>
+        <li>Leszeded a termést</li>
+        <li>Eladod vagy elfogyasztod a termést</li>
+        <li>Következő évben a második lépéstől újrakezded</li>
+      </ol>
+      <h4>Almafajták tulajdonságai:</h4>
+      <table>
+        <tr>
+          <th><sub>Tulajdonság</sub>\<sup>Fajta</sup></th>
+          <th>Rozela</th>
+          <th>Orion</th>
+          <th>Red Topaz</th>
+          <th>Sirius</th>
+          <th>Luna</th>
+        </tr>
+        <tr>
+          <th>Növekedési erély</th>
+          <td>Közepes</td>
+          <td>Közepes</td>
+          <td>Közepes</td>
+          <td>Jonagold típus</td>
+          <td>Golden típus</td>
+        </tr>
+        <tr>
+          <th>Érési idő</th>
+          <td>Szeptember 15-30</td>
+          <td>Október eleje</td>
+          <td>Október 5-15</td>
+          <td>Szeptember 25-Október 10</td>
+          <td>Október 1-20</td>
+        </tr>
+        <tr>
+          <th>Termőre fordulás</th>
+          <td>Korán</td>
+          <td>Idared típus</td>
+          <td>Korai</td>
+          <td>Korai</td>
+          <td>Korai</td>
+        </tr>
+        <tr>
+        <th>Íze</th>
+          <td>Zamatos, kellemes</td>
+          <td>Édeskés</td>
+          <td>Savas</td>
+          <td>Lédús, semleges</td>
+          <td>Semleges</td>
+      </tr>
+      </table>
+    </div>
+    <div>
+      <h4>Melyik típus nyerte el tetszésedet?</h4>
+      <label>Rozela</label>
+      <input type="radio" name="fajta">
+      <label>Orion</label>
+      <input type="radio" name="fajta">
+      <label>Red Topaz</label>
+      <input type="radio" name="fajta">
+      <label>Sirius</label>
+      <input type="radio" name="fajta">
+      <label>Luna</label>
+      <input type="radio" name="fajta">
+    </div>
+    <div>
+      <h4>További kérdések a fajtákról:</h4>
+      <fieldset>
+      <legend>Kérdések a fenti fajtákról:</legend>
+	  <br>
+      <label>Fajta:</label>
+      <select>
+        <option >Rozela</option>
+        <option >Orion</option>
+        <option >Red Topaz</option>
+        <option >Sirius</option>
+        <option >Luna</option>
+      </select>
+      <br><br>
+      <label>Kérdéseim:</label>
+      <br>
+      <textarea cols="30" rows="10" ></textarea>
+      <br>
+      <h5><input type="checkbox"> Szeretnék további értesítéseket kapni a fenti almafajtákról</h5>
+      <input type="button" value="Küldés">
+      </fieldset>
+    </div>  
+  </body>
+</html>
