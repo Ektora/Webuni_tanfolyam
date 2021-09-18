@@ -1,0 +1,64 @@
+/*
+:root {
+  --margin-top: 40px;
+}
+
+div.container:hover {
+  display: block;
+  color: #ff0000;
+  margin: var(--margin-top) 0 0 1rem;
+}
+
+@media screen and (max-width:992px) and (orientation:portrait){
+  .container{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .container{
+    font-size: 32px;
+  }
+}
+*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 16px;
+  color: #242424;
+}
+h1, h2, h3, h4{
+  margin: 0;
+}
+.container{
+  /* kikényszerítés a használatra
+  color: #00ff00 !important;
+  */
+padding: 16px 0 16px 0;
+}
+.form-item{
+  margin-bottom: 24px;
+}
+label{
+  display: inline-block;
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.8);
+}
+input{
+    height: 24px;
+  }
+textarea{
+    line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+input, textarea{
+  width: 100%;
+  line-height: 24px;
+  border: 2px solid #747474 ;
+  border-radius: 8px;
+}
+input:focus,
+textarea:focus{
+  outline: none;
+  box-shadow: 0 0 0 1px green;
+  background-color: rgba(200, 200, 200, 0.2);
+}
