@@ -2,19 +2,16 @@
 :root {
   --margin-top: 40px;
 }
-
 div.container:hover {
   display: block;
   color: #ff0000;
   margin: var(--margin-top) 0 0 1rem;
 }
-
 @media screen and (max-width:992px) and (orientation:portrait){
   .container{
     font-size: 12px;
   }
 }
-
 @media screen and (min-width: 1200px){
   .container{
     font-size: 32px;
@@ -61,4 +58,38 @@ textarea:focus{
   outline: none;
   box-shadow: 0 0 0 1px green;
   background-color: rgba(200, 200, 200, 0.2);
+}
+a{
+  text-decoration: none;
+  color: #586ad4;
+  font-size: 80%;
+  display: inline-block;
+}
+button{
+  background: none;
+  background-color: #5d9930;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 8px 0;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  color: #242424;
+  background-color: rgba(93, 153, 48, 0.4);
+}
+button:focus{
+  outline: none;
+  border: 2px solid green;
+}
+
+@media screen and (min-width:992px){
+  input, textarea{
+    width: 450px;
+  }
+}
+#image-container{
+  display: flex;
+  justify-content: center;
 }
